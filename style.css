@@ -71,3 +71,35 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/* mediaQuery */
+
+@media screen and (max-width: 420px) {
+  /* sezione generale */
+  .row{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  /* sezione lezioni */
+  #lezioni .row{
+    background-color: rgb(215, 238, 172);
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+
+    #lezioni .row>.left{
+      padding-bottom: 30px;
+    }
+
+
+
+}
