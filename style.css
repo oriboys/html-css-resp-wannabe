@@ -78,15 +78,22 @@ img {
 
 @media screen and (max-width: 420px) {
   /* sezione generale */
+
+  body{
+    background-image: linear-gradient(#d7eeac, #1bbaba, #c14de9);
+  }
   .row{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: auto;
   }
+
   /* sezione lezioni */
-  #lezioni .row{
-    background-color: rgb(215, 238, 172);
+  #lezioni {
+    background-image: linear-gradient(#d7eeac, #82d6b2);
+
+
   }
 
   #lezioni .row>.left,
@@ -99,6 +106,37 @@ img {
     #lezioni .row>.left{
       padding-bottom: 30px;
     }
+
+
+    /* sezione steps */
+
+    #steps .row {
+      background-image: linear-gradient(#82d6b2, #2bafbe);
+
+
+
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 100%;
+        text-align: center;
+
+      }
+
+      #steps .row>.left,
+      #steps .row>.central {
+        padding-bottom: 30px;
+      }
+
+      /* sezione why */
+
+      #why .row{
+        background-image: linear-gradient(#2bafbe, #c14de9);
+      }
+
 
 
 
